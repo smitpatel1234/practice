@@ -26,10 +26,10 @@
                             </svg>
                             Services</a></div>
                      <div><a href="#"><img src="./icons8-new-contact-50.png" alt="">Contact</a></div>
-                     <div><a href="#"><img src="./icons8-help-50.png" alt="">Help</a></div>
-                     <div><a href="#"><img src="./icons8-project-50.png" alt="">Project</a></div>
-                     <div><a href="#"><img src="./icons8-team-goal-48.png" alt="">Team and collborator</a></div>
-                     <div><a href="#"><img src="./icons8-donation-50.png" alt="">Donation</a></div>
+                     <div><a href="https://www.w3schools.com/howto/howto_js_media_queries.asp#:~:text=Using%20Media%20Queries%20With%20JavaScript&text=The%20window.,%2Dwidth%2C%20orientation%2C%20etc."><img src="./icons8-help-50.png" alt="">w3schools -js_media_queries</a></div>
+                     <div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow"><img src="./icons8-project-50.png" alt="">MDN Web Docs - overflow </a></div>
+                     <div><a href="https://www.w3schools.com/html/html_symbols.asp"><img src="./icons8-team-goal-48.png" alt="">W3schools - HTML Symbols</a></div>
+                     <div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scrollbars_styling"><img src="./icons8-donation-50.png" alt="">MDN Web Docs - scrollbar</a></div>
                </div>
                </aside>
                <header>               <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
@@ -44,7 +44,7 @@
 </body>
 <script>
     function openNav() {
-      document.getElementById("open").style.width = "25%";
+      document.getElementById("open").style.width =window.matchMedia("(max-width: 600px)").matches ?  "100%":"25%";
     }
     function closeNav() {
       document.getElementById("open").style.width = "0";

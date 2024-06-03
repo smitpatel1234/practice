@@ -70,7 +70,7 @@ main{
     scroll-snap-align: center;
     background-color: rgb(211, 211, 211);
     max-width: 100%;
-   height: 5vh;
+   height: 8vh;
    margin-top: 0.5em;
    margin-bottom: 0.5em;
    padding: 0.5em;
@@ -91,6 +91,7 @@ main{
 
     background-color: inherit;
     color: inherit;
+ margin: 0.5em;
     text-decoration: none;
 }
 .header1 .nav1 div svg{
@@ -151,4 +152,25 @@ main{
     font-size: 36px;
     margin-left: 50px;
     color: rgb(0, 0, 0);
+  }
+  @media screen and (max-width: 600px) {
+    .header1{
+        width: 100%;
+    }
+    .header1 .nav1 div{
+        font-size: 1rem;
+    }
+    .header1 figure img{
+        width: 50%;
+        height: 10vh;
+        border-radius: 20%;
+       }
+       .header1 figure figcaption{
+        font-size: large;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        padding: 1em;
+          }
+    
   }
