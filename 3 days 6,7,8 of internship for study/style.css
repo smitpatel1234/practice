@@ -3,34 +3,67 @@
     padding: 0;
 }
 body{
-    overflow: hidden;
+   
 }
+footer{
+    background-color: rgb(211, 211, 211);
+    color:  rgb(125, 124, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 
+}
+header{
+    background-color: rgb(211, 211, 211);
+    color:  rgb(125, 124, 124);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    margin-top: 10vh;
+}
 .header1{
     background-color: rgb(211, 211, 211);
     color:  rgb(125, 124, 124);
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
-    max-width:30%;
+    width: 0;
     z-index: 1;
+    transition:0.5s;
+   
+   overflow-x: hidden;
 }
 .nav1{ 
     display:flex;
     justify-content: flex-start;
-  
     background-color: rgb(211, 211, 211);
-     position: absolute;
      flex-direction: column;
-     max-width:100%;
- 
+     max-width:80%;
     height: 75vh;
     overflow-y: scroll;
    scroll-snap-type:y mandatory;
    margin-right: 10px;
   padding: 10px;
- 
 }
 
 .header1 .nav1 div{
@@ -111,3 +144,11 @@ body{
  font-weight: 500;
  padding: 1em;
    }
+   .header1 .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+  }

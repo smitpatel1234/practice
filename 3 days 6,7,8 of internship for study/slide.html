@@ -6,14 +6,14 @@
     <title>slide nav</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-          <header>
-            <aside class="header1">
-                <figure><img src="./20240408_173526.jpg" alt="Smit Patel "><figcaption>Smit Patel</figcaption></figure>
+<body> 
+            <aside class="header1" id="open">
+
+                <figure><img src="./20240408_173526.jpg" alt="Smit Patel "><figcaption>Smit Patel</figcaption></figure><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                <div class="nav1">
                      <div><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
                         <path d="M 24.962891 1.0546875 A 1.0001 1.0001 0 0 0 24.384766 1.2636719 L 1.3847656 19.210938 A 1.0005659 1.0005659 0 0 0 2.6152344 20.789062 L 4 19.708984 L 4 46 A 1.0001 1.0001 0 0 0 5 47 L 18.832031 47 A 1.0001 1.0001 0 0 0 19.158203 47 L 30.832031 47 A 1.0001 1.0001 0 0 0 31.158203 47 L 45 47 A 1.0001 1.0001 0 0 0 46 46 L 46 19.708984 L 47.384766 20.789062 A 1.0005657 1.0005657 0 1 0 48.615234 19.210938 L 41 13.269531 L 41 6 L 35 6 L 35 8.5859375 L 25.615234 1.2636719 A 1.0001 1.0001 0 0 0 24.962891 1.0546875 z M 25 3.3222656 L 44 18.148438 L 44 45 L 32 45 L 32 26 L 18 26 L 18 45 L 6 45 L 6 18.148438 L 25 3.3222656 z M 37 8 L 39 8 L 39 11.708984 L 37 10.146484 L 37 8 z M 20 28 L 30 28 L 30 45 L 20 45 L 20 28 z"></path>
-                        </svg>
+                        </svg> 
                         <a href="#" >Home</a></div>
                      <div>
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
@@ -32,11 +32,22 @@
                      <div><a href="#"><img src="./icons8-donation-50.png" alt="">Donation</a></div>
                </div>
                </aside>
-            </header>
+               <header>               <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+               </header>
+               <main>
+                     <h1>Slide Navigation</h1>
+                     <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black overlay to body when the sidenav is opened.</p>
+               </main>
+               <footer>Smit patel</footer>
             
        
 </body>
 <script>
-  
-</script>
+    function openNav() {
+      document.getElementById("open").style.width = "25%";
+    }
+    function closeNav() {
+      document.getElementById("open").style.width = "0";
+    }
+    </script>
 </html>
