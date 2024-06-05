@@ -1,0 +1,18 @@
+git push -u origin main
+git add .
+git commite  -m""
+git status
+git push -d origin branchname
+git pull 
+git remote -set origin 
+git push -set--upstream
+git branch -a
+           -d
+           -D
+           name
+git checkout branchname
+git merge branchname
+git rebase
+git swich
+git stash
+git stash pop
