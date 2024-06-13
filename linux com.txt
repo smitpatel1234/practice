@@ -1,0 +1,50 @@
+topbar workspace 
+barshells
+usermod -L user (usermodification -L   Lock user-argument)
+sudo su -	
+man usermod (manual page by man comand)
+cd
+ls
+ls  -l -LH (long list)
+display
+      user group other
+     permission -:drwx for user rw- etc
+chmod +u binary number for each position
+
+date  +%R
+file
+cat (to print file contant)
+head -n 5 filename
+tail -n 5 ''
+wc 
+touch filename(create file)
+gedit 
+vim 
+apt-get
+sudo apt update
+sudo apt vim install
+-press I for insert
+-press esc for stop 
+-press both shift+: 
+w for write
+q for save & quit
+q! for quit furo 
+here in bin -file store for services by all the  user
+pwd 
+echo
+clear
+mkdir
+whoami
+rm 
+cat 
+rm -r
+sudo adduser test
+su username
+chmod o+w filename
+sudo chown test:test
+usermod -aG
+ls -l /etc/ | grap sudo
+userdel -f 
+groupdel -f
+
+
