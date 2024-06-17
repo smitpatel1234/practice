@@ -46,5 +46,18 @@ usermod -aG
 ls -l /etc/ | grap sudo
 userdel -f 
 groupdel -f
+top - display Linux processes
+ps
+sleep 20 &
+ps j 
+kill pid
+man 7 signal
+sleep 48 
+jobs
+ps j
+fg
+lscpu
+system
+man systemctl 
 
 
