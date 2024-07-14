@@ -53,8 +53,8 @@ ps j
 kill pid
 man 7 signal
 sleep 48 
-jobs
-ps j
+jobs 
+ps aux	
 fg
 lscpu
 system
