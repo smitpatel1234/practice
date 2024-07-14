@@ -1,0 +1,31 @@
+.users-container {
+    margin: 20px;
+  }
+  
+  .users-container input {
+    margin: 5px;
+  }
+  
+  .users-container button {
+    margin: 10px 0;
+  }
+  
+  .users-list {
+    margin: 20px;
+  }
+  
+  .user-item {
+    margin: 10px 0;
+    list-style: none;
+  }
+  
+  .user-item button {
+    margin-left: 10px;
+  }
+  
+  .user-item a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  

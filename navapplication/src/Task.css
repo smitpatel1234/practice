@@ -1,0 +1,17 @@
+.tasks-container {
+    margin: 20px;
+  }
+  
+  .user-tasks {
+    margin: 20px 0;
+  }
+  
+  .user-tasks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-tasks li {
+    margin: 5px 0;
+  }
+  
