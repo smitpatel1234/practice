@@ -118,8 +118,6 @@
 - **Student ID:** _22IT113_
 - **Student Name:** _Smit Patel_
 
-**Signature of External Guide:** ___________________  
-**Signature of Internal Guide:** ___________________
 
 ---
 
