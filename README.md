@@ -1,3 +1,5 @@
+<div style="background-image: url('//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg'); padding: 20px; border-radius: 10px;">
+
 # 🌟 Summer Internship 2024 Weekly Report 🌟
 
 ## **Student Name:** _Patel Smitkumar Nileshkumar_  
@@ -6,9 +8,9 @@
 
 ---
 
-### **Week 1: 22/05/2024 - 28/05/2024** 📅
+### <span style="color: blue;">**Week 1: 22/05/2024 - 28/05/2024** 📅</span>
 
-**Project Title:** Training Session
+**Project Title:** <span style="color: green;">Training Session</span>
 
 **Summary of Work Done:** 📝
 - 📚 Basics of web development, GitHub/Git, and Linux.
@@ -30,7 +32,7 @@
 
 ---
 
-### **Week 2: 29/05/2024 - 04/06/2024** 📅
+### <span style="color: blue;">**Week 2: 29/05/2024 - 04/06/2024** 📅</span>
 
 **Summary of Work Done:** 📝
 - 🔄 Advanced Git topics: merge conflicts, branch management, rebasing.
@@ -48,7 +50,7 @@
 
 ---
 
-### **Week 3: 05/06/2024 - 11/06/2024** 📅
+### <span style="color: blue;">**Week 3: 05/06/2024 - 11/06/2024** 📅</span>
 
 **Summary of Work Done:** 📝
 - 🔄 Git concepts: merge, rebase, pull requests, forking.
@@ -64,7 +66,7 @@
 
 ---
 
-### **Week 4: 12/06/2024 - 18/06/2024** 📅
+### <span style="color: blue;">**Week 4: 12/06/2024 - 18/06/2024** 📅</span>
 
 **Summary of Work Done:** 📝
 - 🐧 Linux administration: user and group management, access control, superuser privileges, process management.
@@ -78,7 +80,7 @@
 
 ---
 
-### **Week 5: 19/06/2024 - 25/06/2024** 📅
+### <span style="color: blue;">**Week 5: 19/06/2024 - 25/06/2024** 📅</span>
 
 **Summary of Work Done:** 📝
 - 🐳 Docker basics and containerization.
@@ -99,7 +101,7 @@
 
 ---
 
-### **Week 6: 26/06/2024 - 02/07/2024** 📅
+### <span style="color: blue;">**Week 6: 26/06/2024 - 02/07/2024** 📅</span>
 
 **Summary of Work Done:** 📝
 - 🚦 Implemented routing using react-router-dom.
@@ -116,6 +118,9 @@
 - **Student ID:** _22IT113_
 - **Student Name:** _Smit Patel_
 
+**Signature of External Guide:** ___________________  
+**Signature of Internal Guide:** ___________________
+
 ---
 
 > _Note: Each section summarizes the work done and the planned tasks for the following week. Please refer to the attached documents in the repository for detailed information._
@@ -127,3 +132,5 @@
 ---
 
 > *This readme file is maintained by Smit Patel as part of the Summer Internship 2024 at Team Elementals.*
+
+</div>
